@@ -20,19 +20,13 @@ export const TrafficLights = () => {
 			<div id="container">
 				<div
 					className={"red light " + seleRed}
-					onClick={() => {
-						color == "red" ? setColor("") : setColor("red");
-					}}></div>
+					onClick={() => setColor("red")}></div>
 				<div
 					className={"yellow light " + seleYellow}
-					onClick={() => {
-						color == "yellow" ? setColor("") : setColor("yellow");
-					}}></div>
+					onClick={() => setColor("yellow")}></div>
 				<div
 					className={"green light " + seleGreen}
-					onClick={() => {
-						color == "green" ? setColor("") : setColor("green");
-					}}></div>
+					onClick={() => setColor("green")}></div>
 			</div>
 		</div>
 	);
